@@ -11,3 +11,5 @@ def tell_him_to_eat_apple():
     print("Eat an apple!")
     return "Eat an apple!"
 
+def tell_him_to_sleep():
+    print("Go to sleep!")
