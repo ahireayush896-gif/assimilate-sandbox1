@@ -1,7 +1,7 @@
-# Direct conflict on main branch
+# UPSTREAM UPDATE ON MAIN
 def botanical_conflict_demo():
-    print("This line directly conflicts with the PR branch!")
-    return "NEW_CONFLICT_ON_MAIN_BRANCH"
+    print("UPSTREAM CONFLICT INTRODUCED ON MAIN")
+    return "PR_10_CONFLICT_TEST"
 
 def play_music():
     print("LOUD ROCK MUSIC ON MAIN")
