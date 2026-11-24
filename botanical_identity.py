@@ -16,10 +16,9 @@ def consume_fruit(fruit_name: str) -> str:
     
     return f"Successfully consumed {fruit_name}. You remain safe from becoming a banana."
 
-# Direct conflict on main branch
 def botanical_conflict_demo():
-    print("This line directly conflicts with the PR branch!")
-    return "NEW_CONFLICT_ON_MAIN_BRANCH"
+    print("UPSTREAM CONFLICT INTRODUCED ON MAIN")
+    return "PR_10_CONFLICT_TEST"
 
 def play_music():
     print("LOUD ROCK MUSIC ON MAIN")
