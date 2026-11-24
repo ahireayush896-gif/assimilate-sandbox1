@@ -42,3 +42,9 @@ def get_botanical_status(user_input: str = "apple") -> Dict[str, Any]:
     """Helper function to get the standard botanical status mapping."""
     bot = BotanicalIdentity(assigned_identity="banana", target_identity="apple")
     return bot.identify(user_input)
+
+
+def botanical_conflict_demo():
+    """Demo function incorporating upstream changes cleanly while preserving PR branch feature intent."""
+    print("This line directly conflicts with the PR branch!")
+    return "CONFLICT_ON_MAIN"
