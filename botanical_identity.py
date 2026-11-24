@@ -4,7 +4,12 @@ def botanical_conflict_demo():
     return "NEW_CONFLICT_ON_MAIN_BRANCH"
 
 def play_music():
-    print("LOUD ROCK MUSIC ON MAIN")
+    print("music is playing")
+
+def tell_him_to_eat_apple():
+    """Prescribes eating an apple."""
+    print("Eat an apple!")
+    return "Eat an apple!"
 
 def tell_him_to_sleep():
     print("Go to sleep!")
