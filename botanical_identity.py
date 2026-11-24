@@ -5,3 +5,9 @@ def botanical_conflict_demo():
 
 def play_music():
     print("music is playing")
+
+def tell_him_to_eat_apple():
+    """Prescribes eating an apple."""
+    print("Eat an apple!")
+    return "Eat an apple!"
+
